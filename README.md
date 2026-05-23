@@ -172,7 +172,7 @@ The iframe is configured by adding [URL Query Params](https://en.wikipedia.org/w
 
 - `rom-url` - **(Required)** The URL to the `.gb` or `.gbc` ROM that will be loaded, fetched, and played.
 - `rom-name` - The name of the ROM being played.
-- `play-poster` - The URL to the image shown at the intial "click to play", play poster.
+- `play-poster` - The URL to the image shown at the initial "click to play", play poster.
 
 Please ensure all assets that are being loaded by the iframe embed, such as ROMs and images, will work with [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). The WasmBoy Iframe Embed will take the full width and height (100%) of it's iframe container. Thus, it will be up to your styling to ensure the iframe preserves the GameBoy 160x144 resolution.
 
